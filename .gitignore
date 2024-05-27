@@ -40,3 +40,6 @@ build/
 # Customize ignore 
 out
 \.idea
+
+*pycache*
+*test*
