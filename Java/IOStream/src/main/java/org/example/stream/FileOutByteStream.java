@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * 文件输出 IO 流是将数据写入文件中
  */
-public class FileOutStream {
+public class FileOutByteStream {
     public static void main(String[] args) throws IOException {
         FileOutputStream outputStream = new FileOutputStream("./data/test.txt");
 

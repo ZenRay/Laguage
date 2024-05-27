@@ -3,7 +3,6 @@ package org.example.stream;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 
@@ -12,7 +11,7 @@ import java.io.IOException;
  * 1. 一个流对象,读完之后,就不要再读了;除非重新new一个新的对象
  * 2. 流关闭之后,流对象不能继续使用了
  */
-public class FileInStream {
+public class FileInByteStream {
     public static void main(String[] args) throws IOException {
         File file = new File("./data/test.txt");
         FileInputStream inputStream = new FileInputStream(file);
