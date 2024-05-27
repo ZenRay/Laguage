@@ -19,6 +19,6 @@ public class FileInStream {
             System.out.println(new String(chars,0,len));
         }
         reader.close();
-            
+
     }
 }
