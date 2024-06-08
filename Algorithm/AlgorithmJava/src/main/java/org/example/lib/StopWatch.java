@@ -1,12 +1,12 @@
 package org.example.lib;
 
-public class StopWath {
+public class StopWatch {
     private long startTime;
 
     /**
      * Initialize start time
      */
-    public StopWath() {
+    public StopWatch() {
         this.startTime = System.currentTimeMillis();
     }
 
