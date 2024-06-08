@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>StaticDemo</module>
+        <module>IOStream</module>
+        <module>test</module>
     </modules>
 
     <properties>
